@@ -2,7 +2,6 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Nav } from "./page/nav/nav";
 import { Footer } from "./page/footer/footer";
-import { LoginForm } from "./page/login-form/login-form";
 import { FormsModule } from '@angular/forms';
 
 interface Customer{
