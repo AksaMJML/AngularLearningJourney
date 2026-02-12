@@ -19,4 +19,15 @@ export class Contact {
     email : '',
     description : ''
   }
+
+  vistorsList : Visitors[] = [];
+
+  sendMsg(){
+    this.vistorsList.push(this.visitors);
+    this.visitors = {
+      name : '',
+      email : '',
+      description : ''
+    };
+  }
 }
