@@ -1,4 +1,6 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 interface Visitors{
   name : String;
@@ -8,7 +10,7 @@ interface Visitors{
 
 @Component({
   selector: 'app-contact',
-  imports: [],
+  imports: [FormsModule,CommonModule],
   templateUrl: './contact.html',
   styleUrl: './contact.css',
 })
