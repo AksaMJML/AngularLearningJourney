@@ -14,4 +14,9 @@ interface Visitors{
 })
 export class Contact {
 
+  visitors : Visitors = {
+    name : '',
+    email : '',
+    description : ''
+  }
 }
