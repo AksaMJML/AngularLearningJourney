@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Nav } from "./page/nav/nav";
-import { Footer } from "./page/footer/footer";
+import { Nav } from "./components/footer/nav/navv
+import { Footer } from "./components/footer/footer";
 import { FormsModule } from '@angular/forms';
 import { Home } from "./page/home/home";
 
