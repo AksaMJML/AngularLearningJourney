@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Nav } from "./components/footer/nav/navv
-import { Footer } from "./components/footer/footer";
 import { FormsModule } from '@angular/forms';
 import { Home } from "./page/home/home";
+import { Nav } from "./components/nav/nav";
+import { Footer } from "./components/footer/footer";
 
 interface Customer{
   name : string;
@@ -14,7 +14,7 @@ interface Customer{
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Nav, Footer, FormsModule, Home],
+  imports: [RouterOutlet, FormsModule, Home, Nav, Footer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
